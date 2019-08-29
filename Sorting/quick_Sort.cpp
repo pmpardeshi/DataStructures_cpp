@@ -30,6 +30,10 @@ int partition(int * arr, int low, int high){
 		}
 
 	}
+	/*
+		i points to last smaller element than pivot in array
+		thus i+1 will point to larger element
+	*/
 
 	i++;
 	swap(arr[high],arr[i]);
